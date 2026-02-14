@@ -4874,7 +4874,7 @@ local Library do
 
                 Name = Data.Name or Data.name or "Keybind",
                 Flag = Data.Flag or Data.flag or Library:NextFlag(),
-                Default = Data.Default or Data.default or Enum.KeyCode.RightControl,
+                Default = Data.Default or Data.default,
                 Mode = Data.Mode or Data.mode or "Toggle",
                 Callback = Data.Callback or Data.callback or function() end,
                 Tooltip = Data.Tooltip or Data.tooltip or nil,
@@ -5139,7 +5139,7 @@ local Library do
 
                 Name = Data.Name or Data.name or "Keybind",
                 Flag = Data.Flag or Data.flag or Library:NextFlag(),
-                Default = Data.Default or Data.default or Enum.KeyCode.RightControl,
+                Default = Data.Default or Data.default,
                 Mode = Data.Mode or Data.mode or "Toggle",
                 Callback = Data.Callback or Data.callback or function() end,
                 Count = Label.Count
