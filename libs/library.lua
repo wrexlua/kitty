@@ -193,10 +193,10 @@ local Library do
         },
 
         Folders = {
-            Directory = "testpath",
-            Configs = "testpath/Configs",
-            Assets = "testpath/Assets",
-            Themes = "testpath/Themes"
+            Directory = "kitty",
+            Configs = "kitty/Configs",
+            Assets = "kitty/Assets",
+            Themes = "kitty/Themes"
         },
 
         Images = { -- you're welcome to reupload the images and replace it with your own links
@@ -336,7 +336,7 @@ local Library do
             ["Border"] = FromRGB(0, 0, 0),
             ["Outline"] = FromRGB(19, 19, 19),
             ["Dark Liner"] = FromRGB(21, 21, 21),
-            ["Risky"] = FromRGB(255, 50, 50),
+            ["Risky"] = FromRGB(191, 201, 38),
             ["Accent"] = FromRGB(158, 79, 249)
         },
     }
