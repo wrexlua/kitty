@@ -327,7 +327,7 @@ local Library do
     end
 
     local Themes = {
-      ["Kitty"] = {
+        ["Default"] = {
             ["Window Background"] = FromRGB(33, 33, 33),
             ["Inline"] = FromRGB(14, 14, 14),
             ["Text"] = FromRGB(255, 255, 255),
