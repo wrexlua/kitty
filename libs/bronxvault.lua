@@ -3922,13 +3922,13 @@ local Library do
                     BorderColor3 = FromRGB(0, 0, 0),
                     Size = UDim2New(0, 12, 0, 12),
                     BorderSizePixel = 0,
-                    BackgroundColor3 = FromRGB(255, 210, 62)
+                    BackgroundColor3 = FromRGB(0, 255, 0)
                 })
 
                 Items["Glow"] = Instances:Create("ImageLabel", {
                     Parent = Items["StatusCircle"].Instance,
                     Name = "\0",
-                    ImageColor3 = FromRGB(255, 210, 62),
+                    ImageColor3 = FromRGB(0, 255, 0),
                     ScaleType = Enum.ScaleType.Slice,
                     ImageTransparency = 0.30000001192092896,
                     BorderColor3 = FromRGB(0, 0, 0),
@@ -3953,9 +3953,9 @@ local Library do
                     Parent = Items["Status"].Instance,
                     Name = "\0",
                     FontFace = Library.Font,
-                    TextColor3 = FromRGB(255, 210, 62),
+                    TextColor3 = FromRGB(0, 255, 0),
                     BorderColor3 = FromRGB(0, 0, 0),
-                    Text = "67 Active | Connected",
+                    Text = "Connected",
                     AnchorPoint = Vector2New(1, 0.5),
                     Size = UDim2New(0, 0, 0, 15),
                     BackgroundTransparency = 1,
