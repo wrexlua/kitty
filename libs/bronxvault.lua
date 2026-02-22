@@ -3206,7 +3206,7 @@ local Library do
                 Settings:Keybind({
                     Name = "Menu Keybind",
                     Flag = "MenuBind",
-                    Default = Enum.KeyCode.Z,
+                    Default = Enum.KeyCode.RightControl,
                     Callback = function(Value)
                         Window:SetOpen(Value)
                     end
